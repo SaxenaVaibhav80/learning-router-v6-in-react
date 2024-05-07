@@ -22,4 +22,7 @@ function  useGetData(){
     })
     )
 }
+
+// Note->In JavaScript, map() is a method of the Array object. It creates a new array by calling a function on every element of the original array and storing the results in a new array. map() returns the new array, and the original array is unchanged.
+
 export default useGetData 
