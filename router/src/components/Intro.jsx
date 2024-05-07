@@ -14,8 +14,11 @@ function Hello()
             <h1>hello everyone its a react router tutorial</h1>
             {/* <a href="/About" target="_parent"><button>Move to page About</button></a> */}
             <Link to="/About">click to know about me</Link><br/>
-            <Link to="/contact">click to know my contact</Link>
+            <Link to="/contact">click to know my contact</Link><br></br>
             <button onClick={sendDataToOtherPage}>go to other page with id</button>
+
+            <h1>get the data</h1><br></br>
+            <Link  to="/GetData">click to det data from api</Link>
 
          </>
     )

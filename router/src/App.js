@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import AboutUs from './components/AboutUs'
 import { Route,Routes } from 'react-router-dom';
 import OtherPage from './components/OtherPage';
+import Axios from './components/Axios'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/About" element={<AboutUs></AboutUs>}/>
         <Route path="/contact" element={<Contact></Contact>}/>
         <Route path="/OtherPage" element={<OtherPage></OtherPage>}/>
+        <Route path="/GetData" element={<Axios></Axios>}/>
       </Routes>
     </div>
   );
