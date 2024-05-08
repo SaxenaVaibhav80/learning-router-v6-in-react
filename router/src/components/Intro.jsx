@@ -30,3 +30,6 @@ function Hello()
 export default Hello
 
 // Note---> on clicking button "Move to page About"the page will get render to avoid this we use Link component from react 
+
+
+// The useNavigate hook in React Router is used for programmatic navigation within a React application. It allows you to navigate to different routes in your app without relying on <Link> or other similar components. This is particularly useful for implementing custom navigation logic, like redirecting users after a form submission or navigating based on some condition.
