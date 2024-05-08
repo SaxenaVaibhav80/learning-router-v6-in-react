@@ -18,7 +18,8 @@ function Hello()
             <button onClick={sendDataToOtherPage}>go to other page with id</button>
 
             <h1>get the data</h1><br></br>
-            <Link  to="/GetData">click to det data from api</Link>
+            <Link  to="/GetData">click to det data from api</Link><br></br>
+            <Link to="/AxiosPost">click to post something</Link>
 
          </>
     )
